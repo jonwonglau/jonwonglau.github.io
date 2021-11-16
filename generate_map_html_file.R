@@ -12,7 +12,7 @@ my.path = 'assignment.csv'
 df = read.csv(my.path)
 
 popup <- paste("<div class='leaflet-popup-scrolled' style='max-width:600px;max-height:300px'><b>",
-               '<a href=', df$InfoURL, ' target="_blank"> <h2 align="center"><strong>', df$Name, "</strong></h2></a><br>",
+               '<a href=', df$InfoURL, ' target="_blank"> <h2 align="center"><strong>', df$ï..Name, "</strong></h2></a><br>",
                "</b>", df$Description, '<br><br><center><img src="', df$ImageURL, '" height="150px" width="200px" border="8"></center><br> </div>')
 
 
